@@ -1,0 +1,45 @@
+.social-button-bg {
+  padding: 0.5rem;
+  background: linear-gradient(
+    90.21deg,
+    rgba(199, 5, 121, 0.966) -5.91%,
+    rgba(16, 112, 255, 0.986) 180.58%
+  );
+  border-radius: 9999px;
+  display: flex;
+  flex-direction: row;
+  width: 9.4rem;
+}
+
+@media (min-width: 768px) {
+  .social-button-bg {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.social-button {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: black;
+}
+
+#github {
+  border-radius: 9999px;
+}
+
+#linkedin {
+  border-radius: 4px;
+}
+
+.social-button:hover {
+  color: #0575fd;
+  background-color: black;
+}
