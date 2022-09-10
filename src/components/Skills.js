@@ -3,11 +3,57 @@ import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import { SkillCard } from './SkillCard';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import colorSharp2 from '../assets/img/color-sharp2.png';
+import projImg1 from '../assets/img/javascript.png';
+import projImg2 from '../assets/img/java.png';
+import projImg3 from '../assets/img/python.webp';
+import projImg4 from '../assets/img/php.webp';
+import projImg5 from '../assets/img/mysql.png';
+import projImg6 from '../assets/img/git.png';
+import projImg7 from '../assets/img/react.png';
+import projImg8 from '../assets/img/linux.webp';
 
 export const Skills = () => {
   const skills = [
     {
       title: 'Javascript',
+      description: '',
+      imgUrl: projImg1,
+    },
+    {
+      title: 'Java',
+      description: '',
+      imgUrl: projImg2,
+    },
+    {
+      title: 'Python',
+      description: '',
+      imgUrl: projImg3,
+    },
+    {
+      title: 'Php',
+      description: '',
+      imgUrl: projImg4,
+    },
+    {
+      title: 'MySQL',
+      description: '',
+      imgUrl: projImg5,
+    },
+    {
+      title: 'Git',
+      description: '',
+      imgUrl: projImg6,
+    },
+    {
+      title: 'React',
+      description: '',
+      imgUrl: projImg7,
+    },
+    {
+      title: 'Linux',
+      description: '',
+      imgUrl: projImg8,
     },
   ];
 
@@ -24,12 +70,10 @@ export const Skills = () => {
                   }
                 >
                   <br></br>
-
                   <br></br>
                   <br></br>
-
-                  <h2>Technological Skills</h2>
                   <center>
+                    <h1>Technological Skills</h1>
                     <Tab.Container id='projects-tabs' defaultActiveKey='first'>
                       <Nav
                         variant='pills'
@@ -60,7 +104,11 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className='background-image-right' src={colorSharp2}></img> */}
+      <img
+        className='background-image-right'
+        src={colorSharp2}
+        alt='background'
+      ></img>
     </section>
   );
 };
