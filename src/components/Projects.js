@@ -4,6 +4,7 @@ import projImg1 from '../assets/img/maple-financial.png';
 // import projImg2 from '../assets/img/project-img2.png';
 // import projImg3 from '../assets/img/project-img3.png';
 // import colorSharp from '../assets/img/color-sharp.png';
+import projVid1 from '../assets/video/budget-app.mp4';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -31,10 +32,10 @@ export const Projects = () => {
                         <Nav.Link eventKey='first'>Maple Financial</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey='second'>Tab 2</Nav.Link>
+                        <Nav.Link eventKey='second'>Budgeting App</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey='third'>Tab 3</Nav.Link>
+                        <Nav.Link eventKey='third'>Coming Soon</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -66,7 +67,17 @@ export const Projects = () => {
                         <img src={projImg1} alt='Maple Financial'></img>
                       </Tab.Pane>
                       <Tab.Pane eventKey='second'>
-                        <p>Coming soon!</p>
+                        <Row>
+                          <center>
+                            <p>
+                              UI/UX design for a budgeting app made in Adobe XD.
+                            </p>
+                            <video width='620' controls>
+                              <source src={projVid1} type='video/mp4' />
+                              Your browser does not support the video tag.{' '}
+                            </video>
+                          </center>
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey='third'>
                         <p>Coming soon!</p>
