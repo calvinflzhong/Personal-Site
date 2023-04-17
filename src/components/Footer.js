@@ -5,6 +5,8 @@ import React from 'react';
 
 export const Footer = () => {
   return (
-    <footer className='footer'>© All rights reserved. Calvin Zhong</footer>
+    <footer className='footer'>
+      <p>© All rights reserved. Calvin Zhong</p>
+    </footer>
   );
 };
