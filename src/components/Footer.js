@@ -5,14 +5,6 @@ import React from 'react';
 
 export const Footer = () => {
   return (
-    <footer className='footer'>
-      <Container>
-        <Row className='align-items-center'>
-          <Col size={12} sm={6}>
-            © All rights reserved. Calvin Zhong
-          </Col>
-        </Row>
-      </Container>
-    </footer>
+    <footer className='footer'>© All rights reserved. Calvin Zhong</footer>
   );
 };
