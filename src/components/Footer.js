@@ -6,7 +6,25 @@ import React from 'react';
 export const Footer = () => {
   return (
     <footer className='footer'>
-      <p>© All rights reserved. Calvin Zhong</p>
+      <div class='footer'>
+        <div class='row'>
+          <ul>
+            <li>
+              <a href='#'>Home</a>
+            </li>
+            <li>
+              <a href='#'>Skills</a>
+            </li>
+            <li>
+              <a href='#'>Projects</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class='row'>
+          Copyright © 2023 All rights reserved. Calvin Zhong
+        </div>
+      </div>
     </footer>
   );
 };
