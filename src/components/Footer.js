@@ -6,23 +6,13 @@ import React from 'react';
 export const Footer = () => {
   return (
     <footer className='footer'>
-      {/* <Container>
+      <Container>
         <Row className='align-items-center'>
           <Col size={12} sm={6}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? 'animate__animated animate__zoomIn' : ''
-                  }
-                >
-                  <img src={headerImg} alt='Header Img' />
-                </div>
-              )}
-            </TrackVisibility>
+            © All rights reserved. Calvin Zhong
           </Col>
         </Row>
-      </Container> */}
+      </Container>
     </footer>
   );
 };
