@@ -22,7 +22,11 @@ export const Footer = () => {
         </div>
 
         <div class='row'>
-          Copyright © 2023 All rights reserved. Calvin Zhong
+          <ul>
+            <li>
+              <a>Copyright © 2023 All rights reserved. Calvin Zhong</a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
