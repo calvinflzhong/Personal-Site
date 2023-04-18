@@ -10,13 +10,13 @@ export const Footer = () => {
         <div class='row'>
           <ul>
             <li>
-              <a href='#'>Home</a>
+              <a href='#home'>Home</a>
             </li>
             <li>
-              <a href='#'>Skills</a>
+              <a href='#skills'>Skills</a>
             </li>
             <li>
-              <a href='#'>Projects</a>
+              <a href='#project'>Projects</a>
             </li>
           </ul>
         </div>
