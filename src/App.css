@@ -528,6 +528,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 }
 .contact form button:hover {
   color: #fff;
+  transition: 0.5s ease-in-out;
 }
 .contact form button::before {
   content: '';
@@ -568,6 +569,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon {
 
 .footer .row a:hover {
   color: #fff;
+  transition: 0.5s ease-in-out;
 }
 
 .footer .row ul {
