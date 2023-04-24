@@ -12,6 +12,8 @@ import projImg5 from '../assets/img/mysql.png';
 import projImg6 from '../assets/img/git.png';
 import projImg7 from '../assets/img/react.png';
 import projImg8 from '../assets/img/linux.webp';
+import projImg9 from '../assets/img/csharp.png';
+import projImg10 from '../assets/img/angularjs.png';
 
 export const Skills = () => {
   const skills = [
@@ -24,6 +26,11 @@ export const Skills = () => {
       title: 'Java',
       description: '',
       imgUrl: projImg2,
+    },
+    {
+      title: 'C#',
+      description: '',
+      imgUrl: projImg9,
     },
     {
       title: 'Python',
@@ -49,6 +56,11 @@ export const Skills = () => {
       title: 'React',
       description: '',
       imgUrl: projImg7,
+    },
+    {
+      title: 'AngularJS',
+      description: '',
+      imgUrl: projImg10,
     },
     {
       title: 'Linux',

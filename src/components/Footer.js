@@ -6,8 +6,8 @@ import React from 'react';
 export const Footer = () => {
   return (
     <footer className='footer'>
-      <div class='footer'>
-        <div class='row'>
+      <div className='footer'>
+        <div className='row'>
           <ul>
             <li>
               <a href='#home'>Home</a>
@@ -21,7 +21,7 @@ export const Footer = () => {
           </ul>
         </div>
 
-        <div class='row'>
+        <div className='row'>
           <ul>
             <li>
               <a>Copyright © 2023 All rights reserved. Calvin Zhong</a>
